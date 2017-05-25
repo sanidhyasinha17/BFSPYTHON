@@ -8,3 +8,4 @@ def bfs(g, start):
         new = set(g[n]) - enqueued
         enqueued |= new
         queue.extend([(n, child) for child in new])
+#reference copied code 
